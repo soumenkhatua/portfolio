@@ -1,0 +1,118 @@
+
+
+
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+ */
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Change from 10vh to 100vh */
+    /* background: blue; */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+  }
+  
+
+
+
+/* .wrapper{
+    margin: auto;
+    width: auto;
+    align-items: left;
+    justify-content: left;
+    float: left;
+} */
+
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 960px; /* Change to a specific max-width */
+    padding: 0 20px; /* Add some padding to the sides */
+    text-align: left; /* Change to left alignment */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+
+/* img {
+    max-width: 250px;
+    float: left;
+    border: 20px solid transparent;
+    border-radius: 25px;
+    margin-right: 10px;
+    align-items: left;
+    justify-content: left;
+}
+
+.text-box{
+    color: auto;
+}
+
+
+
+.text-box p {
+    font-size: 20px;
+} */
+
+
+
+img {
+    max-width: 100%; /* Make the image responsive */
+    border: 20px solid transparent;
+    border-radius: 25px;
+    margin-right: 10px;
+  }
+  
+  .text-box{
+    color: black; /* Change to a specific color */
+    text-align: center;
+  }
+  
+  /* .text-box h2 {
+    font-size: 42px;
+  } */
+  
+  .text-box p {
+    font-size: 18px;
+    margin-bottom: 20px; /* Add some margin to the bottom */
+  }
+  
+
+
+
+
+footer {
+    background-color: black;
+    color: rgb(215, 177, 177);
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+
+.container  {
+    margin-bottom: 20px;
+    
+  }
+  
